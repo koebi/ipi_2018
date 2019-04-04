@@ -1,0 +1,27 @@
+Eine Informatikklausur besteht aus mindestens einer Aufgabe zu einem der Themen
+"EBNF", "Komplexität", "Sortieren", "C++-Syntax", "Klassen", "Vererbung" und
+"Pointer". Jede Aufgabe hat eine Nummer zwischen 1 und 9, ein Thema, eine Anzahl an
+Punkten und eine Aufgabenstellung (in dieser Reihenfolge). Dabei ist die Nummer
+vom Thema durch einen Doppelpunkt getrennt, die Punktzahl in Klammern gesetzt
+und die Aufgabenstellung in einer neuen Zeile.
+
+a) Erstellen sie die EBNF zu einer Informatikklausur.
+   Benutzen sie dabei <KLAUSUR> als Startsymbol und <INHALT> als nicht weiter zu
+   definierendes Nichtterminal für die Aufgabenstellung
+
+Es wird überlegt, dass Aufgaben auch aus Teilaufgaben bestehen können,
+allerdings aus höchstens drei. Jede Teilaufgabe ist dabei durch ein
+vorangestelltes a), b) oder c) gekennzeichnet. Allerdings kann (wie
+beispielsweise in dieser Aufgabe) weiterer Aufgabentext zwischen den
+Teilaufgaben folgen. Jede Teilaufgabe erhält dabei eine gesonderte Punktzahl,
+die nur am Anfang der Klausur durch eine aus einer Summe bestehende Punktzahl
+gekennzeichnet ist.
+
+b) Erstellen sie die EBNF zur Informatikklausur mit Teilaufgaben.
+   Benutzen sie auch hier <INHALT> als nicht weiter zu definierendes
+   Nichtterminalzeichen für die Teilaufgabenstellungen.
+   Alle Nichtterminalzeichen, die sie aus a) übernehmen wollen, brauchen sie
+   nicht neu zu definieren.
+
+Hinweis: Die Sortierung von Aufgabennummern und Teilaufgabenbezeichunung sowie
+eine gleiche Anzahl von Teilpunktzahlen und Teilaufgaben ist zu ignorieren.
