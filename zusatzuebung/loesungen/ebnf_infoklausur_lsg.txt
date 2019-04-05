@@ -1,0 +1,15 @@
+Lösung:
+(Nichtterminale sind hier nicht unterstrichen, weil das in Text
+
+a)
+<KLAUSUR> ::= {<AUFGABE>}+
+<AUFGABE> ::= <NR> : <THEMA> ( <PKT> ) \n <INHALT>
+<NR> ::= 1|…|9
+<THEMA> ::= "EBNF"|"Komplexität"|…
+<PKT> ::= <NR>{0|<NR>}*
+
+b)
+<AUFGABE> ::= <NR> : <THEMA> ( <TP> ) \n {<TA>|<INHALT>}+
+<TA> := <TANR> <INHALT>
+<TANR> := a) | b) | c)
+<TP> ::= <PKT>{+<PKT>}*
