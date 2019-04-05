@@ -12,13 +12,13 @@
  *   for-Schleifen verwendet.
  *
  *d) Es werden jetzt folgende Änderungen eingefügt:
-*    Zeile 36: int n = input();  (Input ist eine Funktion, die in einer
-*    beliebigen Art und Weise eine Zahl einliest)
-*    Zeile 37: 500 -> n/2 + 1
-*    Zeile 41: 1000 -> n
-*
-*    Bestimmen Sie die Laufzeit der main() Funktion abhängig von der Zahl, die
-*    von input() eingelesen wird.
+ *   Zeile 36: int n = input();  (Input ist eine Funktion, die in einer
+ *   beliebigen Art und Weise eine Zahl einliest)
+ *   Zeile 37: 500 -> n/2 + 1
+ *   Zeile 41: 1000 -> n
+ *
+ *   Bestimmen Sie die Laufzeit der main() Funktion abhängig von der Zahl, die
+ *   von input() eingelesen wird.
  */
 
 #include <iostream>
