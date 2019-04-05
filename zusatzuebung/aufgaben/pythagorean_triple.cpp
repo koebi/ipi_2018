@@ -5,7 +5,7 @@
  *a) Der Code enthält 9 syntaktische und semantische Fehler. Diese sind zu
  *   finden, zu erklären und zu beheben.
  *
- *b) Der Code tätigt in Zeile 28 eine implizite Annahme über das
+ *b) Der Code tätigt in Zeile 37 eine implizite Annahme über das
  *   Problem. Beweisen sie diese.
  *
  *c) Der Code nutzt while-Schleifen. Schreiben sie den Code so um, dass er
