@@ -9,13 +9,12 @@ a) Erstellen sie die EBNF zu einer Informatikklausur.
    Benutzen sie dabei <KLAUSUR> als Startsymbol und <INHALT> als nicht weiter zu
    definierendes Nichtterminal für die Aufgabenstellung
 
-Es wird überlegt, dass Aufgaben auch aus Teilaufgaben bestehen können,
-allerdings aus höchstens drei. Jede Teilaufgabe ist dabei durch ein
-vorangestelltes a), b) oder c) gekennzeichnet. Allerdings kann (wie
-beispielsweise in dieser Aufgabe) weiterer Aufgabentext zwischen den
-Teilaufgaben folgen. Jede Teilaufgabe erhält dabei eine gesonderte Punktzahl,
-die nur am Anfang der Klausur durch eine aus einer Summe bestehende Punktzahl
-gekennzeichnet ist.
+Es wird überlegt, dass Aufgaben auch aus Teilaufgaben bestehen können. Jede
+Teilaufgabe ist dabei durch ein vorangestelltes a), b) oder c) gekennzeichnet.
+Allerdings kann (wie beispielsweise in dieser Aufgabe) weiterer Aufgabentext
+zwischen den Teilaufgaben folgen. Jede Teilaufgabe erhält dabei eine gesonderte
+Punktzahl. Diese ist am Anfang der Klausur dadurch gekennzeichnet, dass die
+Gesamtpunktzahl jetzt eine Summe ist, z.b. (3+2+1).
 
 b) Erstellen sie die EBNF zur Informatikklausur mit Teilaufgaben.
    Benutzen sie auch hier <INHALT> als nicht weiter zu definierendes
